@@ -1,3 +1,5 @@
+# Learn to Create Flowers Grid in CSS
+
 Over the weekend, I decided to explore CSS shapes and attempted to create a flower using circles and triangles. In my upcoming blog post, I'll share a step-by-step guide on how to create a flower using simple shapes in CSS. To give you a sneak peek, you can take a look at my Flower grid page design below.
 
 ![Flowers Grid](flowers-grid.png)
