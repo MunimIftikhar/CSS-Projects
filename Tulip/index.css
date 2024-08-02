@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDC442;
+}
+
+.tulip-container {
+    border: 20px solid #EDC442;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDC442;
+}
+
+.tulip {
+    position: relative;
+    width: 100px;
+    height: 200px;
+}
+
+.petal {
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    background-color: #DF6229;
+    border-radius: 50px / 80px;
+}
+
+.petal.left {
+    background-color: #DF6229;
+    left: 10px;
+    top: 10px;
+    transform: rotate(-30deg);
+}
+
+.petal.center {
+    background-color: #E7954D;
+    left: 25px;
+    top: 0;
+}
+
+.petal.right {
+    background-color: #DF6229;
+    left: 40px;
+    top: 10px;
+    transform: rotate(30deg);
+}
+
+.stem {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 10px;
+    height: 100px;
+    background-color: #306F5F;
+    border-radius: 10px / 50px;
+    transform: translateX(-50%);
+    top: 80px;
+}
+
+.leaf {
+    position: absolute;
+    width: 15px;
+    height: 70px;
+    background-color: #306F5F;
+    border-radius: 10px / 30px;
+}
+
+.left-leaf {
+    bottom: 40px;
+    left: 22px;
+    transform: rotate(-30deg);
+}
+
+.right-leaf {
+    bottom: 40px;
+    right: 22px;
+    transform: rotate(30deg);
+}
